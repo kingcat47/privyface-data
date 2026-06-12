@@ -1,0 +1,11 @@
+user-face/
+user-credentials/
+government_face_data_*.csv
+government_face_data_all.csv
+merkle_tree_result.json
+face_landmarker.task
+
+node_modules/
+__pycache__/
+*.pyc
+.claude/

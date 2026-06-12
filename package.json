@@ -1,0 +1,21 @@
+{
+  "name": "face-analysis-poseidon",
+  "version": "1.0.0",
+  "description": "Poseidon hash를 사용한 얼굴 특징점 분석",
+  "main": "poseidon_hash.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "merkle": "ts-node merkle_tree.ts",
+    "credentials": "ts-node generate_user_credentials.ts"
+  },
+  "dependencies": {
+    "o1js": "^1.0.0",
+    "csv-parse": "^5.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
